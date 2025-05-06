@@ -3,14 +3,14 @@
   --bg2: #faf8f3;
   --highlight: #fefcf7;
 }
-
-body {
-  background-image: url("background.jpg");
-  background-position: fixed;
-  background-size: 1920px 1080px;
-  background-position: fixed;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg);
+  text-align: center;
 }
-
 footer {
   position: fixed;
   left: 0;
@@ -28,6 +28,17 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+body {
+  background-image: url("../images/background.jpg");
+  background-position: fixed;
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+}
 
 .navbar {
   background-color: var(--bg);
@@ -43,7 +54,7 @@ footer a:hover {
 
 img {
   width: 20rem;
-  border: solid black 2px;
+  padding:1rem;
 }
 .big-text-container-wrapper {
   margin-top: 10rem;
@@ -51,12 +62,50 @@ img {
   align-items:center;
   justify-content: center;
 }
+.information-container {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top:1rem;
+}
+.information-text {
+  background-color: var(--bg);
+  width:70%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
 .big-text-container {
   background-color: var(--bg);
-  margin-top: 10rem;
-  width: 90%;
+  margin-top: 1rem;
+  width: 70%;
   display:flex;
   align-items:center;
   justify-content: center;
   border-radius: 0.5rem;
+  text-align:center;
+}
+.logo{
+  width:2.8rem;
+  border: none;
+  padding:0;
+}
+.box-holder {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  background-color: var(--bg);
+  border: black solid 0.2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-top:1rem;
+  
+}
+.box div {
+  margin-top:1rem;
+  text-align:center;
 }
