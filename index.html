@@ -1,65 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monty Tech Greenhouse | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monty Tech Greenhouse | Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/index.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/MTLogo-Vines.png" class="logo" />Monty Tech
+          Greenhouse</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu">
+                <div>
+                  <li>
+                    <a class="dropdown-item" href="plants.html">Plants</a>
+                  </li>
+                </div id="1">
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                <div id="2">
+                <li>
+                  <a class="dropdown-item" href="masonry.html">Masonry</a>
+                </li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="images/MTLogo-Vines.png" class="logo">Monty Tech Greenhouse</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Gallery
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="plants.html">Plants</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="masonry.html">Masonry</a></li>
-            </ul>
-          </li>
-        </ul>
+    <div class="big-text-container-wrapper">
+      <div class="big-text-container">
+        <h1>Welcome to the Monty Tech Greenhouse</h1>
       </div>
     </div>
-  </nav>
-
-  <div class="big-text-container-wrapper">
-    <div class="big-text-container">
-      <h1>Welcome to the Monty Tech Greenhouse</h1>
+    <div class="information-container">
+      <div class="information-text">
+        <h1>Information</h1>
+        <p>
+          <span class="text-info">Open date </span>
+          <span class="text-danger">(staff only):</span> &nbsp 5/8; 8:00-5:00
+          p.m.
+        </p>
+        <p>
+          <span class="text-info">Open date (everyone): </span> &nbsp 5/8-5/31;
+          11:00-1:00 p.m & 5/9; 12:00-1:30 p.m.
+        </p>
+        <span class="text-danger">Closed on Memorial Day (May 26th)</span>
+      </div>
     </div>
-  </div>
-  <div class="information-container">
-    <div class="information-text">
-      <h1>Information</h1>
-      <p><span class="text-info">Open date </span> <span class="text-danger">(staff only):</span> &nbsp 5/8; 8:00-5:00 p.m.</p>
-      <p><span class="text-info">Open date (everyone): </span> &nbsp 5/8-5/31; 11:00-1:00 p.m & 5/9; 12:00-1:30 p.m.</p>
-      <span class="text-danger">Closed on Memorial Day (May 26th)</span>
-    </div>
-  </div>
-  <footer>
-    <a href="#">Back to top</a>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-</body>
-
+    <footer>
+      <a href="#">Back to top</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

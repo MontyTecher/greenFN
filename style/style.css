@@ -1,111 +1,109 @@
 :root {
-  --bg: #fffefc;
-  --bg2: #faf8f3;
-  --highlight: #fefcf7;
+    --bg: #e8f9f1;
+    --bg2: #e8f9e8;
+    --highlight: #f2fcf7ff;
 }
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bg);
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bg);
+    text-align: center;
 }
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bg);
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bg);
+    text-align: center;
 }
 
 footer a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 footer a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 body {
-  background-image: url("../images/background.jpg");
-  background-position: fixed;
-  background-size: 1920px 1080px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: url("../images/background.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navbar {
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
-  background-color: var(--bg);
+    background-color: #d7f2e5;
 }
 
 .dropdown-item:hover {
-  background-color: var(--highlight);
+    background-color: var(--highlight);
 }
 
 .dropdown-menu {
-  background-color: var(--bg2);
+    background-color: var(--bg2);
 }
 
 img {
-  width: 20rem;
-  padding:1rem;
+    width: 20rem;
+    padding: 1rem;
 }
 .big-text-container-wrapper {
-  margin-top: 10rem;
-  display:flex;
-  align-items:center;
-  justify-content: center;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .information-container {
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 .information-text {
-  background-color: var(--bg);
-  width:70%;
-  text-align: center;
-  border-radius: 0.5rem;
+    background-color: var(--bg);
+    width: 70%;
+    text-align: center;
+    border-radius: 0.5rem;
 }
 .big-text-container {
-  background-color: var(--bg);
-  margin-top: 1rem;
-  width: 70%;
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  border-radius: 0.5rem;
-  text-align:center;
+    background-color: var(--bg);
+    margin-top: 1rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    text-align: center;
 }
-.logo{
-  width:2.8rem;
-  border: none;
-  padding:0;
+.logo {
+    width: 2.8rem;
+    border: none;
+    padding: 0;
 }
 .box-holder {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .box {
-  background-color: var(--bg);
-  border: black solid 0.2rem;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left:1rem;
-  margin-right:1rem;
-  margin-top:1rem;
-  
+    background-color: var(--bg);
+    border: black solid 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 .box div {
-  margin-top:1rem;
-  text-align:center;
+    margin-top: 1rem;
+    text-align: center;
 }
