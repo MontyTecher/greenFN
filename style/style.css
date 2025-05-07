@@ -68,13 +68,13 @@ img {
   margin-top: 1rem;
 }
 .information-text {
-  background-color: var(--bg);
+  background-color: var(--bg2);
   width: 70%;
   text-align: center;
   border-radius: 0.5rem;
 }
 .big-text-container {
-  background-color: var(--bg);
+  background-color: var(--bg2);
   margin-top: 1rem;
   width: 70%;
   display: flex;
@@ -108,7 +108,7 @@ img {
   text-align: center;
 }
 .price-container {
-  background-color: var(--bg);
+  background-color: var(--bg2);
   width: 70%;
   display:flex;
   margin-left: 0.5rem;
@@ -125,4 +125,7 @@ img {
 }
 .price-container p {
   margin-top:1rem
+}
+body {
+  font-family: Poppins;
 }
